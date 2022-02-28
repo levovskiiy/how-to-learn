@@ -8,6 +8,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #000;
 }
 
 .absolute {
@@ -81,6 +82,37 @@
 
 .description {
   padding: 100px 0 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.two-columns_theme_title-text {
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.two-columns_theme_main-text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.two-columns__brief {
+  margin: 0;
+  min-width: 175px;
+}
+.two-columns__main-text {
+  margin: 0;
+  min-width: 784px;
+  width: 80%;
+}
+.two-columns__paragraph:first-of-type {
+  margin-top: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -91,5 +123,6 @@
   margin-top: 80px;
 }
 
+/*# sourceMappingURL=_style.css.map */
 
 /*# sourceMappingURL=style.css.map */
