@@ -307,5 +307,71 @@ h6 {
   z-index: 1;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px 0 40px 0;
+  min-height: 250px;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.footer__columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.footer__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer__column_content_copyright {
+  -ms-flex-preferred-size: 711px;
+      flex-basis: 711px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__column-links {
+  margin-top: 20px;
+}
+
+.footer__column-link {
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link:hover {
+  color: #2f80ed;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  max-width: 16px;
+  max-height: 16px;
+}
 /*# sourceMappingURL=style.css.map */
