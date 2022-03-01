@@ -32,6 +32,10 @@ h6 {
   text-decoration: none;
 }
 
+.link:hover {
+  color: #3161a0;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -371,9 +375,6 @@ h6 {
   font-size: 18px;
 }
 
-.footer__column-link:hover {
-  color: #2f80ed;
-}
 
 .footer__social-icon {
   margin-right: 10px;
