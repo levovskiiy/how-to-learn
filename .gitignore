@@ -1,7 +1,7 @@
 .idea
 texts.md
 styles/style.scss
-styles/__colors.scss
+styles/_colors.scss
 styles/_style.css
 styles/style.css.map
 
