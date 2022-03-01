@@ -139,17 +139,6 @@ h6 {
   /* выше установили ограничения для секции */
 }
 
-.header_title_theme {
-  font-size: 102px;
-  line-height: 96px;
-  font-weight: 700;
-}
-
-.header_subtitle_theme {
-  font-size: 18px;
-  line-height: 25px;
-}
-
 .header__title {
   max-width: 730px;
   margin-left: 64px;
@@ -157,6 +146,10 @@ h6 {
       -ms-grid-row-align: center;
       align-self: center;
   z-index: 2;
+
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 700;
 }
 
 .header__subtitle {
@@ -165,11 +158,14 @@ h6 {
   bottom: 30px;
   left: 64px;
   z-index: 2;
+
+  font-size: 18px;
+  line-height: 25px
 }
 
 .header__main-illustration {
-  max-width: 765px;
-  max-height: 608px;
+  width: 765px;
+  height: 608px;
   position: absolute;
   z-index: 1;
   bottom: 0;
@@ -187,7 +183,7 @@ h6 {
 }
 
 .description {
-  padding: 100px 0 100px 0;
+  padding: 100px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,26 +202,27 @@ h6 {
   width: 80%;
 }
 
-.two-columns_theme_title-text {
+.two-columns__brief {
+  margin: 0;
+  width: 175px;
+
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
-}
-
-.two-columns_theme_main-text {
-  line-height: 34px;
-  font-size: 24px;
-}
-
-.two-columns__brief {
-  margin: 0;
-  min-width: 175px;
+  font-weight: normal;
 }
 
 .two-columns__main-text {
   margin: 0;
   min-width: 784px;
   width: 80%;
+
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.two-columns__paragraph {
+  margin-top: 30px;
 }
 
 .two-columns__paragraph:first-of-type {
@@ -282,6 +279,7 @@ h6 {
   margin-top: 70px;
   line-height: 51px;
   font-size: 36px;
+  font-weight: normal;
 }
 
 .feynman__link {
@@ -310,8 +308,8 @@ h6 {
 }
 
 .kaufman__triangle {
-  max-width: 877px;
-  max-height: 877px;
+  width: 877px;
+  height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
@@ -351,6 +349,13 @@ h6 {
           flex-direction: column;
 }
 
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
@@ -367,6 +372,7 @@ h6 {
 
 .footer__column-links {
   margin-top: 20px;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
