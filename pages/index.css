@@ -5,6 +5,11 @@
 @import url('/blocks/root/root.css');
 /* ======= GLOBAL STYLE ======= */
 
+/* ======= ANIMATION ======= */
+@import url('/blocks/rotation/rotation.css');
+/* ======= ANIMATION ======= */
+
+
 @import url('/blocks/logo/_place/logo_place_footer.css');
 @import url('/blocks/logo/_place/logo_place_header.css');
 /* ======= LINK AND LIST STYLE ======= */
@@ -32,6 +37,16 @@
 @import url('/blocks/table/__text/_theme/table__text_theme_dark.css');
 /* ======= TABLE-BLOCK STYLE ======= */
 
+/* ======= CARDS-BLOCK STYLE ======= */
+@import url('/blocks/cards/cards.css');
+@import url('/blocks/cards/__item/cards__item.css');
+@import url('/blocks/cards/__title/cards__title.css');
+@import url('/blocks/cards/__image/cards__image.css');
+@import url('/blocks/cards/__description/cards__description.css');
+/* ======= CARDS-BLOCK STYLE ======= */
+
+
+
 /* ======= SECTION-TITLE-BLOCK STYLE ======= */
 @import url('/blocks/section-title/section-title.css');
 @import url('/blocks/section-title/_theme/section-title_theme_dark.css');
@@ -54,6 +69,22 @@
 /* ======= DESCRIPTION SECTION ======= */
 @import url('/blocks/description/description.css');
 /* ======= DESCRIPTION SECTION ======= */
+
+/* ======= TECHNIQUES SECTION ======= */
+@import url('/blocks/techniques/techniques.css');
+/* ======= TECHNIQUES SECTION ======= */
+
+/* ======= VIDEO SECTION ======= */
+@import url('/blocks/video/video.css');
+@import url('/blocks/video/__subtitle/video__subtitle.css');
+@import url('/blocks/video/__iframes/video__iframes.css');
+@import url('/blocks/video/__iframe/video__iframe.css');
+/* ======= VIDEO SECTION ======= */
+
+/* ======= OAKLEY SECTION ======= */
+@import url('/blocks/oakley/oakley.css');
+/* ======= OAKLEY SECTION ======= */
+
 
 /* ======= DIGITS SECTION ======= */
 @import url('/blocks/digits/digits.css');
