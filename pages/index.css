@@ -1,5 +1,5 @@
 @import url('/vendor/normalize.css');
-@import url('/vendor/my_reset_css.css');
+@import url('/vendor/heading_paragraph_reset.css');
 
 /* ======= GLOBAL STYLE ======= */
 @import url('/blocks/root/root.css');
@@ -12,6 +12,7 @@
 
 @import url('/blocks/logo/_place/logo_place_footer.css');
 @import url('/blocks/logo/_place/logo_place_header.css');
+
 /* ======= LINK AND LIST STYLE ======= */
 @import url('/blocks/link/link.css');
 @import url('/blocks/list/list.css');
@@ -72,6 +73,7 @@
 
 /* ======= TECHNIQUES SECTION ======= */
 @import url('/blocks/techniques/techniques.css');
+@import url('/blocks/techniques/__subtitle/techniques__subtitle.css');
 /* ======= TECHNIQUES SECTION ======= */
 
 /* ======= VIDEO SECTION ======= */
@@ -98,7 +100,6 @@
 @import url('/blocks/khan/__buy-link/khan__buy-link.css');
 @import url('/blocks/khan/__container/khan__container.css');
 @import url('/blocks/khan/__quote-author-subline/khan__quote-author-subline.css');
-@import url('/blocks/khan/__quote-author/_style/khan__quote-author_style_disabled.css');
 @import url('/blocks/khan/__quote-author/khan__quote-author.css');
 @import url('/blocks/khan/__quote/_style/khan__qoute_style_disabled.css');
 @import url('/blocks/khan/__quote/khan__quote.css');
@@ -120,6 +121,7 @@
 
 /* ======= RESOURCES SECTION ======= */
 @import url('/blocks/resources/resources.css');
+@import url('/blocks/resources/__subtitle/resources__subtitle.css');
 @import url('/blocks/resources/__logo-zone/resources__logo-zone.css');
 @import url('/blocks/resources/__logo/resources__logo.css');
 /* ======= RESOURCES SECTION ======= */
