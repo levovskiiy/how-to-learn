@@ -1,6 +1,5 @@
 @import url('/vendor/normalize.css');
-@import url('/vendor/heading_paragraph_reset.css');
-
+@import url('/vendor/border-box.css');
 /* ======= GLOBAL STYLE ======= */
 @import url('/blocks/root/root.css');
 /* ======= GLOBAL STYLE ======= */
@@ -116,6 +115,7 @@
 
 /* ======= KAUFMAN SECTION ======= */
 @import url('/blocks/kaufman/kaufman.css');
+@import url('/blocks/kaufman/__subtitle/kaufman__subtitle.css');
 @import url('/blocks/kaufman/__triangle/kaufman__triangle.css');
 /* ======= KAUFMAN SECTION ======= */
 
