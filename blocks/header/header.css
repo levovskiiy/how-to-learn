@@ -1,12 +1,13 @@
 .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: #f2f2f2;
-    position: relative;
-    height: 100vh;
-    min-height: 600px;
-    max-height: 756px;
-    overflow: hidden;
-    /* выше установили ограничения для секции */
-  }
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  overflow: hidden;
+  /* выше установили ограничения для секции */
+}

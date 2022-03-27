@@ -1,8 +1,7 @@
 @import url('../vendor/normalize.css');
-@import url('../vendor/normalize-heading.css');
-@import url('../vendor/border-box.css');
 /* ======= GLOBAL STYLE ======= */
 @import url('../blocks/root/root.css');
+
 /* ======= GLOBAL STYLE ======= */
 /* ======= ANIMATION ======= */
 @import url('../blocks/rotation/rotation.css');
